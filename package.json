@@ -1,0 +1,12 @@
+{
+  "name": "it-helpdesk",
+  "version": "1.0.0",
+  "description": "IT Complaints Management System",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install",
+    "build:client": "cd client && npm run build",
+    "start": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "setup": "npm run install:all && npm run build:client"
+  }
+}

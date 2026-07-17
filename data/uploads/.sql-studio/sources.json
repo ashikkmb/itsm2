@@ -1,0 +1,10 @@
+[
+  {
+    "id": "5da5b617-d68f-4b12-89ef-3e195f5ce0d6",
+    "name": "SQLite",
+    "type": 0,
+    "data": {
+      "path": "D:\\ITSM\\data\\helpdesk.db"
+    }
+  }
+]

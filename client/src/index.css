@@ -1,0 +1,9 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #F1F5F9; color: #1E293B; }
+button, input, select, textarea { font-family: inherit; }
+@keyframes fadeUp   { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+@keyframes fadeIn   { from { opacity:0; } to { opacity:1; } }
+@keyframes spin     { to { transform: rotate(360deg); } }
+.fade-up  { animation: fadeUp  .25s ease both; }
+.fade-in  { animation: fadeIn  .2s  ease both; }
+.spinner  { width:20px;height:20px;border:2px solid #E2E8F0;border-top-color:#0E7490;border-radius:50%;animation:spin .7s linear infinite;display:inline-block; }
